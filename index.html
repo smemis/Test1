@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html> 
+  <head>
+	
+	<title>Test 1</title>
+	
+	<!-- META --> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	
+	<!-- JAVASCRIPT -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="sayfa1">
+	<div data-role="header" data-theme="b" data-position="fixed">
+		<h1>Başlık</h1>
+		<a href="http://www.mamak.bel.tr" rel="external" data-icon="star" data-theme="a">Mamak Belediyesi</a>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>Merhaba Dünya</p>
+		<a href="#sayfa2" data-role="button" data-transition="slide">Başkan</a>
+	</div><!-- /content -->
+	<div data-role="footer" data-position="fixed">
+		<h1>Alt Menü</h1>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="sayfa2" data-add-back-btn="true" data-back-btn-text="Geri">
+	<div data-role="header" data-position="fixed">
+		<h1>Mesut AKGÜL</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<div data-role="collapsible-set">
+			<div data-role="collapsible" data-collapsed="false">
+				<h3>Öz Geçmiş</h3>
+				<p>Lorem Ipsum Dolor Sit A Met</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Mesaj</h3>
+				<p>Selam</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Galeri</h3>
+				<p>ıüğşçöİÜĞŞÇÖ</p>
+			</div>
+		</div>
+
+		<a href="#sayfa1" data-role="button" data-icon="back" data-theme="b" data-transition="slide">Geri dön</a>
+	</div><!-- /content -->	
+	<div data-role="footer" data-position="fixed">
+		<h1>Alt Menü</h1>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
